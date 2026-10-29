@@ -1,0 +1,46 @@
+{
+  "name": "greyridge-company-enrichment-mcp",
+  "version": "0.1.0",
+  "description": "MCP server: live company enrichment from a domain — firmographics, MX-graded business contacts, tech-stack fingerprint, social links, and a live hiring signal across 8 ATS platforms. One deduped record per company. No resold DB, no paid API, no account.",
+  "type": "module",
+  "bin": {
+    "greyridge-company-enrichment-mcp": "server.mjs"
+  },
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node test/roundtrip.mjs",
+    "smoke": "node test/smoke.mjs"
+  },
+  "files": [
+    "server.mjs",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "modelcontextprotocol",
+    "company-enrichment",
+    "lead-enrichment",
+    "firmographics",
+    "b2b-data",
+    "sales-intelligence",
+    "hiring-signals",
+    "buying-intent",
+    "ats",
+    "data-enrichment",
+    "prospecting",
+    "claude",
+    "cursor",
+    "ai-agent"
+  ],
+  "license": "MIT"
+}
