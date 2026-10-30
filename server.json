@@ -3,10 +3,16 @@
   "name": "io.github.rezearcher/company-enrichment-mcp",
   "title": "Company Enrichment MCP Server",
   "description": "Live company enrichment from a domain: firmographics, contacts, tech stack + 8-ATS hiring signal.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "websiteUrl": "https://github.com/rezearcher/company-enrichment-mcp",
   "repository": {
     "url": "https://github.com/rezearcher/company-enrichment-mcp",
     "source": "github"
-  }
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://assetfactory-jobs-x402.sigrunner.workers.dev/mcp"
+    }
+  ]
 }
